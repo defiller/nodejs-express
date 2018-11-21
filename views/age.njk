@@ -1,1 +1,22 @@
-<h1>Você é {{majority}} de idade e possui {{age}} anos </h1>
+{% include 'header.njk' %}
+<body>
+<div class="content">
+  <br>
+  <div class="center-content">
+    <h1>Your're {{majority}} age and have {{age}} years </h1>
+  </div>
+
+  <div class="center-content">
+  {% if majority==="minor" %}
+  <i class="fas fa-child"></i>
+  {% else %}
+  <i class="fas fa-user-graduate"></i>
+  {% endif %}
+  <br><br>
+
+  <a href="/" class="btn btn-primary btn-raised">Go back</a>
+  </div>
+
+</div>
+</body>
+{% include 'footer.njk' %}

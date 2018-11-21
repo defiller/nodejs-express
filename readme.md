@@ -11,6 +11,10 @@ of ecmascript 2018, using of nodejs / express to construct middleware and routes
 
 I use nunjucks as the view engine of this application
 
+## Style
+
+I applied the bootstrap stylesheet with material design for this project
+
 ## Enviromnent
 
 I used the concept of enviromnent variables to set diferents enviromnents to run this project, they can be found inside
