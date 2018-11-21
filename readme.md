@@ -11,6 +11,12 @@ of ecmascript 2018, using of nodejs / express to construct middleware and routes
 
 I use nunjucks as the view engine of this application
 
+## Enviromnent
+
+I used the concept of enviromnent variables to set diferents enviromnents to run this project, they can be found inside
+config/env/, as a security measure I configure the git to ignore the .env files, so to active the enviromnent first
+copy and paste .env.example and rename it to .env
+
 ## Objective
 
 This application was build as a experiment / training
