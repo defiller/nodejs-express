@@ -19,7 +19,8 @@ I applied the bootstrap stylesheet with material design for this project
 
 I used the concept of enviromnent variables to set diferents enviromnents to run this project, they can be found inside
 config/env/, as a security measure I configure the git to ignore the .env files, so to active the enviromnent first
-copy and paste .env.example and rename it to .env
+copy and paste .env.example and rename it to .env.
+I used a adicional third party npm module named dotenv to configure the .env file to process enviromnent
 
 ## Objective
 
