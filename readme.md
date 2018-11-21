@@ -1,6 +1,6 @@
-#Readme with aditional descriptions
+# Readme with aditional descriptions
 
-##Tecnology
+## Tecnology
 
 ### Javascript
 
